@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1F94FEC-A0A6-ADA1-68CE-A0D1F6CFB36B" name="SIM_manager">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:19:41 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>879D0565-42D8-749B-5BA1-6CEBF3A09230</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="CCB2A46D-F1F2-FC90-0ACF-9134F06B2F1C">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:20:08 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="EA58807D-9757-9B11-DA7A-ED14A5A08989">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:20:14 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="FDC33DAD-A63C-545F-7E6B-F159F604ABBA">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 01:30:05 UTC</createdTime>
+<generatorID>5403BC69-85DB-F6CE-E989-A6CEB14E663F</generatorID>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>897186BF-654C-A68F-0587-54F0A77B897E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDC22F2E-4FB5-124B-0C1B-F8932AA5DF12" name="SIM_Person">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-13 23:58:50 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="468461DF-F2D9-710C-8CE8-86D63CD52870">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-13 23:59:25 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="B5613569-F394-5F55-EA8D-84B098F4DFF5">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-13 23:59:39 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="04103824-359C-A818-C310-BD230347CB9E">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:13:50 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="4F20FC30-6B03-F35C-C473-2B8ECAB835EE">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:14:00 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="181A58B1-2007-B6DE-5405-E0A7B13094F7">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:14:19 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="161C157C-7FDE-9FB3-DAC9-140ACBC6B84A">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:14:28 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="7B61AE7F-9C6A-70D1-A7E1-138D0C925A2B">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:14:38 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="6F515247-A75E-D0FF-72D5-C5E0B71191EC">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:14:47 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="52B81532-6B71-0BA9-6773-4F7572D94A52">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 00:14:52 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1AB594E-EDE8-ED16-A222-EE6BFE3512C8" name="{entity} PK">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-13 23:59:37 UTC</createdTime>
+<ownerDesignName>Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="3FBB4B80-0CE3-6CFC-5CB1-F0EA7B5F6BBC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>468461DF-F2D9-710C-8CE8-86D63CD52870</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

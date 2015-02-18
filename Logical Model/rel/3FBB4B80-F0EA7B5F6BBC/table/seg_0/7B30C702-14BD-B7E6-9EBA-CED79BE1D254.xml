@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B30C702-14BD-B7E6-9EBA-CED79BE1D254" name="SIM_project">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 02:34:46 UTC</createdTime>
+<generatorID>7A4AA81F-FC14-7027-5E56-FB289C8D4112</generatorID>
+<ownerDesignName>Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_id" id="8B2AF445-CD94-85AF-19CF-652CC89E177A">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 02:34:46 UTC</createdTime>
+<generatorID>F6BC0FC1-91A7-3BB1-6CE4-FCC346CBE393</generatorID>
+<ownerDesignName>Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="EA8C20E5-1D16-768B-8A35-5729F2E1E469">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 02:34:46 UTC</createdTime>
+<generatorID>69CDD68E-431D-E17E-F477-F1E2483CE61A</generatorID>
+<ownerDesignName>Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="5A0A578B-ED60-FD47-28A6-7EBF047A90AC">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 02:34:46 UTC</createdTime>
+<generatorID>F33E7F96-5D8F-058E-60AE-B495EF406487</generatorID>
+<ownerDesignName>Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D4679243-7374-23D0-509C-9BCD18DA69A9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4422C9C-AB47-3173-D323-0F80F22BDCF5" referredColumn="D4679243-7374-23D0-509C-9BCD18DA69A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="463897DF-D532-5F5F-6352-673940DEB9EF" name="SIM_project_PK">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 02:34:46 UTC</createdTime>
+<generatorID>2EAEC0D7-2CF5-DB99-765B-C1D3BD0B2C2C</generatorID>
+<ownerDesignName>Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B2AF445-CD94-85AF-19CF-652CC89E177A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0ECB3D32-0755-49C4-D9DF-07F735818BE0" name="SIM_project_SIM_dept_FK">
+<createdBy>milankodali</createdBy>
+<createdTime>2015-02-14 02:34:46 UTC</createdTime>
+<generatorID>381B8104-CBEC-34CB-F4F6-BB815D2B58F5</generatorID>
+<ownerDesignName>Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A0A578B-ED60-FD47-28A6-7EBF047A90AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
